@@ -1,6 +1,4 @@
 char* longestPalindrome(char* s) {
-    int m, n = 0; // pointer for left and right
-    int answer = 0; // record the length of the longest palindrome
     int len = strlen(s);
     int start = 0; 
     int maxLen = 1;
